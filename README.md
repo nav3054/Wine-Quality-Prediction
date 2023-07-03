@@ -17,6 +17,7 @@ This project will predict the red wine samples' quality from Kaggle's [Red Wine 
 11. alcohol
 12. quality (score between 0 and 10)
 ```
+<br>
 
 ## Classification 
 I'll use 7 classification algorithms and then, find the best-performing algorithm out of the lot.
