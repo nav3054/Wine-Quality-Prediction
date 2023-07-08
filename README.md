@@ -33,7 +33,10 @@ The algorithms which I'll be using are:
 - Random Forest 
 - XGBoost
 ```
-Out of these algorithms, I'll choose the best-performing algorithm by comparing their accuracy scores. For some algorithms, which can have different values for different hyperparameters (such as n_neighbors in KNN and n_estimators in Random Forest), different values of the hyperparameters will be compared with each other. Then, the hyperparameter with the highest accuracy score will be selected and the algorithm will be assigned the accuracy score of the best-performing hyperparameter value. Only after the best possible accuracy scores of all the algorithms have been calculated will the comparison of algorithms begin.
+
+I will compare the performance of these algorithms based on their accuracy scores to select the best-performing one. For certain algorithms with hyperparameters that can take on different values, such as the n_neighbors in KNN or the n_estimators in Random Forest, I will evaluate multiple combinations of hyperparameter values.
+
+I will calculate the accuracy scores for each combination of hyperparameters and select the one with the highest accuracy. Once the best-performing hyperparameter value is determined for each algorithm, I will compare the algorithms based on their corresponding best accuracy scores. This way, I can identify the algorithm that provides the highest accuracy on the given dataset.
 
 <br>
 
@@ -46,4 +49,5 @@ Out of these algorithms, I'll choose the best-performing algorithm by comparing 
 - sklearn (scikit-learn)
 - Classification algorithms
 - Naive Bayes classifier
+- Extreme Gradient Boosting
 ```
